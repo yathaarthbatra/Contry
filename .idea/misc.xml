@@ -12,12 +12,14 @@
         <entry key="app/src/main/res/drawable/ic_baseline_toggle_off_24.xml" value="0.16770833333333332" />
         <entry key="app/src/main/res/drawable/ic_baseline_toggle_on_24.xml" value="0.16770833333333332" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.20277777777777778" />
+        <entry key="app/src/main/res/drawable/ic_no_pending_new.xml" value="0.15208333333333332" />
         <entry key="app/src/main/res/drawable/ic_undraw_positive_attitude_xaae.xml" value="0.2140625" />
         <entry key="app/src/main/res/drawable/normal_button_back.xml" value="0.2140625" />
         <entry key="app/src/main/res/drawable/splash_screen.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_add_people.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_pending_settlements.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_quick_settlement_number_people.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_setttle_result.xml" value="0.3001579778830964" />
         <entry key="app/src/main/res/layout/switch_layout.xml" value="0.1515625" />

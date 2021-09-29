@@ -19,5 +19,6 @@
     <string name="contry_tagline">Money Settlement Simplified</string>
     <string name="home_text">Home</string>
     <string name="settlements_tab">Settlements</string>
+    <string name="no_settlements_left">No pending Settlements left</string>
 
 </resources>
