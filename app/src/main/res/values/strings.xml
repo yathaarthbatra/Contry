@@ -20,5 +20,6 @@
     <string name="home_text">Home</string>
     <string name="settlements_tab">Settlements</string>
     <string name="no_settlements_left">No pending Settlements left</string>
+    <string name="add_group_name">Add a group name</string>
 
 </resources>
