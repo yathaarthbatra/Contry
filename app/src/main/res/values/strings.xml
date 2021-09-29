@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">SplitWise</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="welcome_text_home_fragment">Welcome to Contry</string>
+    <string name="hint_enter_number_people">Enter number of Persons to Settle</string>
+    <string name="next_button_text">Next</string>
+    <string name="enter_details_addPeopleFragment">Enter the details</string>
+    <string name="enter_person_name_hint">Enter the name</string>
+    <string name="enter_expense_hint">Enter the total Expense</string>
+    <string name="add_text_button">Add</string>
+    <string name="settle_text">Settle Up</string>
+    <string name="settle_title_results_heading">Settle Up Results</string>
+    <string name="one_more_settle">One more Settlement?</string>
+    <string name="quick_settle">Quick Settle</string>
+    <string name="detail_settle">Detail Settle</string>
+    <string name="select_text">Click one of these to continue</string>
+    <string name="contry_tagline">Money Settlement Simplified</string>
+    <string name="home_text">Home</string>
+    <string name="settlements_tab">Settlements</string>
+
+</resources>

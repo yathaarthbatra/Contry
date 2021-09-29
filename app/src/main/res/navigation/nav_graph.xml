@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.splitwise.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_quickSettlementNumberPeople"
+            app:destination="@id/quickSettlementNumberPeople" />
+    </fragment>
+    <fragment
+        android:id="@+id/addPeopleFragment"
+        android:name="com.example.splitwise.AddPeopleFragment"
+        android:label="fragment_add_people"
+        tools:layout="@layout/fragment_add_people" >
+        <argument
+            android:name="numberPerson"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_addPeopleFragment_to_setttleResultFragment"
+            app:destination="@id/setttleResultFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/setttleResultFragment"
+        android:name="com.example.splitwise.SetttleResultFragment"
+        android:label="fragment_setttle_result"
+        tools:layout="@layout/fragment_setttle_result" >
+        <argument
+            android:name="resultText"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_setttleResultFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/quickSettlementNumberPeople"
+        android:name="com.example.splitwise.QuickSettlementNumberPeople"
+        android:label="fragment_quick_settlement_number_people"
+        tools:layout="@layout/fragment_quick_settlement_number_people" >
+        <action
+            android:id="@+id/action_quickSettlementNumberPeople_to_addPeopleFragment"
+            app:destination="@id/addPeopleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pendingSettlements"
+        android:name="com.example.splitwise.PendingSettlementsFragment"
+        android:label="fragment_pending_settlements"
+        tools:layout="@layout/fragment_pending_settlements" />
+</navigation>
