@@ -42,6 +42,8 @@ class HomeFragment : Fragment() {
 
         //for detail Settle Button
         binding.detailSettleButton.setOnClickListener {
+            val action = HomeFragmentDirections.actionHomeFragmentToAddGroupFragment()
+            navController.navigate(action)
 
         }
 

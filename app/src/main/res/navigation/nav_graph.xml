@@ -13,6 +13,9 @@
         <action
             android:id="@+id/action_homeFragment_to_quickSettlementNumberPeople"
             app:destination="@id/quickSettlementNumberPeople" />
+        <action
+            android:id="@+id/action_homeFragment_to_addGroupFragment"
+            app:destination="@id/addGroupFragment" />
     </fragment>
     <fragment
         android:id="@+id/addPeopleFragment"
@@ -52,4 +55,9 @@
         android:name="com.example.splitwise.PendingSettlementsFragment"
         android:label="fragment_pending_settlements"
         tools:layout="@layout/fragment_pending_settlements" />
+    <fragment
+        android:id="@+id/addGroupFragment"
+        android:name="com.example.splitwise.AddGroupFragment"
+        android:label="fragment_add_group"
+        tools:layout="@layout/fragment_add_group" />
 </navigation>

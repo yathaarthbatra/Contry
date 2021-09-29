@@ -8,6 +8,7 @@
         <entry key="app/src/main/res/drawable/home_button_back.xml" value="0.2140625" />
         <entry key="app/src/main/res/drawable/ic_baseline_call_split_24.xml" value="0.1675925925925926" />
         <entry key="app/src/main/res/drawable/ic_baseline_fast_forward_24.xml" value="0.2140625" />
+        <entry key="app/src/main/res/drawable/ic_baseline_group_add_24.xml" value="0.15208333333333332" />
         <entry key="app/src/main/res/drawable/ic_baseline_payments_24.xml" value="0.16458333333333333" />
         <entry key="app/src/main/res/drawable/ic_baseline_toggle_off_24.xml" value="0.16770833333333332" />
         <entry key="app/src/main/res/drawable/ic_baseline_toggle_on_24.xml" value="0.16770833333333332" />
@@ -17,6 +18,7 @@
         <entry key="app/src/main/res/drawable/normal_button_back.xml" value="0.2140625" />
         <entry key="app/src/main/res/drawable/splash_screen.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_add_group.xml" value="0.33" />
         <entry key="app/src/main/res/layout/fragment_add_people.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.33" />
         <entry key="app/src/main/res/layout/fragment_pending_settlements.xml" value="0.25" />
